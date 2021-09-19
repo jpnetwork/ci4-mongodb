@@ -5,7 +5,7 @@ use CodeIgniter\Config\BaseConfig;
 class MongoConfig extends BaseConfig
 {
     
-    public $db = "sujane";//ชื่อฐานข้อมูล
+    public $db = "test";//ชื่อฐานข้อมูล
     public $hostname = '127.0.0.1'; 
     public $password = "";
     public $prefix = "";
