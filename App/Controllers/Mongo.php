@@ -27,8 +27,7 @@ class Mongo extends BaseController
         ];
 		
         //Insert new data เพิ่มข้อมูลใหม่
-        $insert = $this->MongoModel->createOne('test',$insert_data);
-        
+        $insert = $this->MongoModel->createOne('test',$insert_data); //กำหนดค่า Collections => 'test'
         $stringID = (string)$insert;  //Return Inserted ID 
         echo 'Last inserted ObjectID : '.$stringID;
 
